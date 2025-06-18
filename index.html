@@ -1,48 +1,156 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Bleux</title>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Bleux</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
-<header>
-    <div class="container menu">
-        <img src="assets/imagenes/logo.png" alt="logo">
-        <nav>
+    <header>
+        <div class="container menu">
+            <img src="assets/imagenes/logo.png" alt="logo">
+            <nav>
                 <a href="index.html">About</a>
                 <a href="about.html">Features</a>
                 <a href="contact.html">Use case</a>
                 <a href="portfolio.html">Pricing</a>
-            <button>Download</button>
-        </nav>
-    </div>
-</header>
-<main class="Product">
-    <div class="morado"></div>
-        <h1>Product<br>Page</h1>
-        <p>we built this template to help you create modern and beautiful marketing page</p>
-        <button>Download it now</button>
-        <button>Features</button>
-    </div>
-    <div class="plantas">
-        <img src="assets/imagenes/hojasFondo.jpg" alt="matas"> 
-        <img src="assets/imagenes/phone.png" alt="celular">
-    </div>
-</main>
-<main class="Fonctionnalites">
-    <div class="portatil">
-        <h4>Fonctionnalités</h4>
-        <img src="assets/imagenes/laptop.png" alt="compu">
-    </div>
-    <div>
-        <h2>Alpha Screenshot</h2>
-        <p>This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product website easily witch this template.</p>
-        <h3>-Marketing Page</h3>
-        <p>Based on Bootstrap 4<br> Modern and creative <br> Optimized for mobile devices</p>
-    </div>
-</main>
-<main class="plans">
-	
+                <button class="download-btn">Download</button>
+            </nav>
+        </div>
+    </header>
+    <main class="product-section">
+        <div class="product-content">
+            <div class="product-left">
+
+                <h1>Product<br>Page</h1>
+                <p>we built this template to help you create modern and beautiful marketing page</p>
+                <div class="buttons">
+                    <button class="btn-primary">Download it now</button>
+                    <button class="btn-secondary">Features</button>
+                </div>
+            </div>
+            <div class="product-right">
+                <img src="assets/imagenes/phone.png" alt="celular">
+            </div>
+        </div>
+        </div>
+    </main>
+    <section class="features-section">
+        <div class="container">
+            <h4 class="section-label">Fonctionnalités</h4>
+            <div class="features-content">
+                <div class="features-left">
+                    <div>
+                        <img class="laptop-img" src="assets/imagenes/laptop.png" alt="computador">
+                    </div>
+                </div>
+                <div class="features-right">    
+                    <h2>Alpha Screenshot</h2>
+                    <p>This is a placeholder text. Replace it with your awesome call to action text. Develop stunning
+                        product website easily with this template.</p>
+                    <div class="feature-item">
+                        <h3>-Marketing Page</h3>
+                        <ul class="feature-item li">
+                            <i class="fa-regular fa-circle-check"></i>Based on Bootstrap 4<br>
+                            <i class="fa-regular fa-circle-check"></i>Modern and creative<br>
+                            <i class="fa-regular fa-circle-check"></i>Optimized for mobile devices
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-header">
+                <h2>Plans & Pricing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem.</p>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="card-icon"> 
+                          <img src="assets/imagenes/hoja.png" alt="phone"> 
+                        <h2 class="color-text">Lite</h2>
+                    </div>
+                    <div class="price">
+                       <div class="price">$0<span>Free</span></div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fa-solid fa-star"></i>Full Components</li>
+                        <li><i class="fa-solid fa-check"></i>Future Updates</li>
+                        <li><i class="fa-solid fa-check"></i>Documentation</li>
+                        <li><i class="fa-solid fa-check"></i>Customer Support</li>
+                        <li><i class="fa-solid fa-x"></i>Cool Option</li>
+                    </ul>
+                    <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                    <div class="clase">
+                        <button class="card-btn basic">Subscribe Now</button>
+                    </div>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="card-icon">
+                        <img src="assets/imagenes/nube.png" alt="nube">  
+                        <h2>Standard</h2>
+                        
+                    </div>
+                     
+                    <div class="price">
+                        
+                           <div class="price">$24<span>per month</span>                     </div>   
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fa-solid fa-star"></i>Full Components</li>
+                        <li><i class="fa-solid fa-check"></i>Future Updates</li>
+                        <li><i class="fa-solid fa-check"></i>Documentation</li>
+                        <li><i class="fa-solid fa-check"></i>Customer Support</li>
+                        <li><i class="fa-solid fa-x"></i>Cool Option</li>
+                    </ul>
+                    <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                    <div class="clase">
+                        <button class="card-btn featured-btn">Subscribe Now</button>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-icon">
+                          <img src="assets/imagenes/maletin.png" alt="maletin"> 
+                        <h2>Ultimate</h2>
+                    </div>
+                    <div class="price">
+                        
+                        <div class="price">$400<span>per user /year</span></div>   
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fa-solid fa-star"></i>Full Components</li>
+                        <li><i class="fa-solid fa-check"></i>Future Updates</li>
+                        <li><i class="fa-solid fa-check"></i>Documentation</li>
+                        <li><i class="fa-solid fa-check"></i>Customer Support</li>
+                        <li><i class="fa-solid fa-x"></i>Cool Option</li>
+                    </ul>
+                    <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                    <div class="clase">
+                        <button class="card-btn featured-btn">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p> &copy; Website made by <span>Mivfx</span>-contact@address.com</p>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
 </body>
-</html> 
+
+</html>
